@@ -1,3 +1,3 @@
-# Container Native Application Development Workshop
+# API Workshop
 
 ## About this Workshop

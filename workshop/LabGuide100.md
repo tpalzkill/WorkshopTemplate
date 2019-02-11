@@ -16,9 +16,19 @@ Get Started with Apiary and create an API Design
 
 ### **Step 1**: Create an Apiary account and login
 
+1. To design our API using Apiary we will first need to create an account. Navigate to [Apiary](apiary.io), in the top right of the page select "Sign Up". Follow the steps to create your account.
+
+  **NOTE:** If you already have an apiary account, you may advance to the next task.
+
+  ![](images/100/apiaryCreate.png)
+
+2. Once your account is created, you may login and proceed to the Step 2.
+  ![](images/100/apiaryLogin.png)
+
+
 ### **Step 2**: Create the API Design
 
-Log into your Apiary account(https://app.apiary.io) (see the Pre-work if you do not have an account) and click on Create New API Project
+
 
   ![](images/100/image001.png)
 

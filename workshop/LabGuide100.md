@@ -3,7 +3,7 @@ Before you begin
 ================
 
 You need to have an account on Apiary. You can sign up for a free
-developer account at <http://apiary.io>
+developer account at http://apiary.io .
 
 Use your Oracle email for setting up the account.
 
@@ -14,14 +14,14 @@ Creating the API Design
     Pre-work if you do not have an account) and click on Create New API
     Project
 
-    ![](media/image1.png){width="6.800313867016623in"
+    ![](images/100/image001.png){width="6.800313867016623in"
     height="3.2641502624671914in"}
 
 2.  Create a personal (not team) API called serviceTickets in the API
     Blueprint format. Private API is not checked when you select
     Personal API. It only shows if you select Team API
 
-    ![](media/image2.png){width="3.2960225284339457in"
+    ![](images/100/image003.png){width="3.2960225284339457in"
     height="4.386792432195976in"}
 
 3.  Your API will be pre-populated from a sample template which you can
@@ -38,7 +38,7 @@ Creating the API Design
 > or the descriptions around the text and you will notice the
 > documentation will update live as you work.
 >
-> ![](media/image3.png){width="6.5692475940507435in"
+> ![](images/100/image005.png){width="6.5692475940507435in"
 > height="3.1603772965879267in"}
 
 4.  Now, from the resources folder/site for the API Github
@@ -47,13 +47,12 @@ Creating the API Design
     You can select all of the text and simply replace the text in your
     **Polls API** sample.
 
-> ![](media/image4.png){width="6.613207567804024in"
-> height="3.181524496937883in"}
+> ![](images/100/image007.png)
 
 5.  Now, you can test the API blueprint by selecting one of the
     resources in your documentation
 
-> ![](media/image5.jpeg){width="3.630719597550306in" height="1.12375in"}
+> ![](images/100/image009.jpg)
 
 6.  Clicking on the link, will bring up the test example. Here, make
     sure you have selected the **Mock Server** and you can choose any
@@ -62,28 +61,25 @@ Creating the API Design
     Additionally, there is a code-sample of how you would call the
     service in the language of your choice.
 
-> ![](media/image6.png){width="6.834722222222222in"
-> height="3.3131944444444446in"}
+> ![](images/100/image011.png)
 
 7.  Click Save and then click the Try button.
 
-> ![](media/image7.png){width="5.882550306211724in"
-> height="4.3018875765529305in"}
+> ![](images/100/image013.png)
 
 8.  Click on Call Resource and scroll down to see Sample Response
 
-![](media/image8.png){width="5.8305675853018375in"
+![](images/100/image015.png){width="5.8305675853018375in"
 height="4.131604330708662in"}
 
 9.  You can switch back to the example to see other languages.
 
-![](media/image9.png){width="6.443396762904637in"
+![](images/100/image017.png){width="6.443396762904637in"
 height="3.6562226596675416in"}
 
 10. Call the Mock Service URL with your REST client
 
-> ![](media/image10.png){width="5.668406605424322in"
-> height="4.254716754155731in"}
+> ![](images/100/image019.png)
 >
 > Now, with your design in place, your application developer could begin
 > working on the front-end, while your service developer's work on the

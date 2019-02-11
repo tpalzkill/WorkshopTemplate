@@ -5,18 +5,12 @@ Lab 200 - Installing API Gateway
 This is the first of several labs that are part of the **Create API on Oracle Integration Cloud**. Oracle API Gateways are software-based appliances that can be installed wherever you want, that is, physical or virtual compute on premise or in the cloud. This workshop will walk you through the process of creating Gateway and deploying it to API on Oracle Integration Cloud.
 
 ## Objectives
-- Create an Apiary account and login
-- Create the API Design
-
-
-## High-level Steps
-
-1.	Provision Linux VM on OCI
-2.	Set Console Connections on the Linux instance
-3.	Allow inbound connections to the Linux instance
-4.	Install and configure logical API Gateway
-5.	Add additional roles to cloud.admin user
-6.	Install and configure host (server) API Gateway
+-	Provision Linux VM on OCI
+-	Set Console Connections on the Linux instance
+-	Allow inbound connections to the Linux instance
+-	Install and configure logical API Gateway
+-	Add additional roles to cloud.admin user
+-	Install and configure host (server) API Gateway
 
 ## Required Artifacts
 
@@ -27,8 +21,10 @@ For this lab you will need:
 - Download FileZila (Mac) or MoBaXTerm (Windows)
 
 
+Create Linux VM and Configure and Deploy API Gateway
+================
 
-## STEP 1: Provision Iaas VM
+### STEP 1: Provision Iaas VM
 1.  Log in to the cloud account which you just created
 ![](./images/200/signin.png)
 
@@ -54,7 +50,7 @@ For this lab you will need:
   ![](images/200/.png)
 
 
-## STEP 2: Create a Console Connection for Mac User
+### STEP 2: Create a Console Connection for Mac User
 
  We will now create a Console Connection, which allows us to use an SSH connection to the instance host.
 
@@ -73,7 +69,7 @@ For this lab you will need:
   ![](images/200/ips.png)
 
 
-## STEP 3: Allow inbound connections to the Linux instance
+### STEP 3: Allow inbound connections to the Linux instance
 1. Stay on the Instance detial page, click on the **Subnet**
   ![](images/200/subnet.png)
 
@@ -91,7 +87,7 @@ For this lab you will need:
 
 
 
-## STEP 4: Setup API Gateway
+### STEP 4: Setup API Gateway
  Now that we have provisioned an Oracle Linux environment, we are going to use it to continue installing an Oracle API Gateway and configure it to join our Autonomous API Platform instance. First let’s create the Logical Gateway configuration in our API Platform Management console. This is the space through which the physical API gateway will be in constant management and synchronization.
 
 1. Click on **MENU** on the left top, and choose **My Services Dashboard** under **Administration**
@@ -154,7 +150,7 @@ For this lab you will need:
 
 
 
-## STEP 5 : Add API Manager and Developer Groups and Users (optional)
+### STEP 5 : Add API Manager and Developer Groups and Users (optional)
 
  You need to be admin roles to be able to create different types of groups and users in Oracle Identity Cloud Service (IDCS)
 
@@ -192,7 +188,7 @@ For this lab you will need:
 
 
 
-## STEP 6: Give Group/User Access to the API
+### STEP 6: Give Group/User Access to the API
 
 1. Go back to the top left burger menu and select **Applications**
   ![](images/200/application.png)
@@ -217,7 +213,7 @@ For this lab you will need:
   ![](images/200/client.png)
 
 
-## STEP 7: Deploy an API Gateway – Install and configure Physical API Gateway
+### STEP 7: Deploy an API Gateway – Install and configure Physical API Gateway
 
 1. Use a File Transfer tool such as FileZilla (Mac) or MoBaXTerm (Windows) to copy files from the local machine to the VM instance
     ![](images/200/filezila.png)
@@ -287,10 +283,13 @@ For this lab you will need:
     >Note: For some reason I got an error saying that it could not find the original Gateway (100) that I originally indicated in the gateway-props.json. I don’t know why? I got around it by saying yes when it asked me to create-join instead. I will investigate this issue and come back here. In the meantime, selecting y + [ENTER] to create-join the node instead got me going to the end.
 
 
-## Step 8: Approve the Node on API Platform
+### Step 8: Approve the Node on API Platform
 
   1. Go back to the API Platform Managers Portal and click on the new node. You should find a pending registration node
   2. Click **Approve**
     ![](images/200/approve.png)
 
 **Now, the whole installation process should complete successfully! You can continue to next workshop.**
+
+Summary
+=======================

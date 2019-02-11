@@ -1,10 +1,12 @@
-# Creating Gateway on OIC
-
-<!-- //tomtom -->
-
+Lab 200 - Installing API Gateway
+================
 ## Introduction
 
 This is the first of several labs that are part of the **Create API on Oracle Integration Cloud**. Oracle API Gateways are software-based appliances that can be installed wherever you want, that is, physical or virtual compute on premise or in the cloud. This workshop will walk you through the process of creating Gateway and deploying it to API on Oracle Integration Cloud.
+
+## Objectives
+- Create an Apiary account and login
+- Create the API Design
 
 
 ## High-level Steps

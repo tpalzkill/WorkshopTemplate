@@ -1,5 +1,15 @@
-# Deploying Gateway to API
+Lab 300 - Deploying ticketService API to Gateway
+================
+## Introduction
 
+You need to have an account on Apiary. You can sign up for a free
+developer account at http://apiary.io .
+
+Use your Oracle email for setting up the account.
+
+## Objectives
+- Create an Apiary account and login
+- Create the API Design
 
 
 **Stay on the API Platform Cloud,the next step is to create API and deploy the gateway to the API.**
